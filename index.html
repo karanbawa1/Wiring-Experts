@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wiring Experts Amritsar - Professional house wiring services in Amritsar.">
+    <title>Wiring Experts Amritsar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #54bd44;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        header img {
+            margin-right: 20px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        nav {
+            text-align: center;
+            width: 100%;
+        }
+        nav a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #54bd44;            
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .social-links {
+            margin: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #e54317;
+        }
+        .contact-form {
+            max-width: 100%;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .service-images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .service-images img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Mobile Specific Adjustments */
+        @media (max-width: 768px) {
+            header img {
+                width: 80px;
+                height: 80px;
+                margin-right: 0;
+            }
+            .service-images img {
+                max-width: 90%;
+            }
+        }
+
+        /* Popup Styles */
+        #popup {
+            display: none; 
+            position: fixed; 
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            background-color: white; 
+            border: 2px solid #333; 
+            padding: 20px; 
+            border-radius: 10px; 
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Wiring Experts Amritsar.png" alt="Wiring Experts Logo">
+        <h1>Wiring Experts Amritsar</h1>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <section id="services">
+        <h2>House Wiring Services</h2>
+        <p>We specialize in professional house wiring services in Amritsar. Our experienced electricians ensure that your home wiring is safe, reliable, and up to code.</p>
+        
+        <div class="service-images">
+            <img src="electrician.jpeg" alt="House Wiring Example 1">
+            <section id="services">
+                <h2>House Wiring Services</h2>
+                <ul style="list-style-type: none;">
+                    <li style="margin-bottom: 15px;"><strong>Professional Installation:</strong> Code-compliant wiring installation.</li>
+                    <li style="margin-bottom: 15px;"><strong>Comprehensive Solutions:</strong> New builds and renovations.</li>
+                    <li style="margin-bottom: 15px;"><strong>Quality Materials:</strong> Durable, reliable wiring.</li>
+                    <li style="margin-bottom: 15px;"><strong>Customized Plans:</strong> Tailored to your needs.</li>
+                    <li style="margin-bottom: 15px;"><strong>Energy Efficiency:</strong> Reduce electricity costs.</li>
+                    <li style="margin-bottom: 15px;"><strong>Safety First:</strong> Grounding and surge protection.</li>
+                    <li style="margin-bottom: 15px;"><strong>Efficient Service:</strong> Timely project completion.</li>
+                    <li style="margin-bottom: 15px;"><strong>Affordable Pricing:</strong> Lower than competitors.</li>
+                    <li style="margin-bottom: 15px;"><strong>Emergency Services:</strong> 24/7 support available.</li>
+                    <li style="margin-bottom: 15px;"><strong>Smart Integration:</strong> Modern technology wiring.</li>
+                    <li style="margin-bottom: 15px;"><strong>Post-Support:</strong> Ongoing maintenance offered.</li>
+                </ul>
+            </section>
+            <img src="electrician2.jpg" alt="House Wiring Example 2">
+            <p>
+                Ready to get started? You can easily book an appointment with us for your house wiring needs. Our team is here to provide professional advice and ensure your wiring is safe and reliable. Simply fill out the contact form, and we will get back to you to confirm your appointment at a time that works best for you. Don't wait—secure your spot today!
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form id="contactForm">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Follow us on:</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/wiring_experts?igsh=ZG4xb2ZxZzZlcndq" target="_blank">Instagram</a>
+            <a href="https://facebook.com/your-facebook-handle" target="_blank">Facebook</a>
+        </div>
+    </footer>
+
+    <div id="popup">
+        <p id="popupMessage">Message sent successfully!</p>
+        <button onclick="closePopup()">Close</button>
+    </div>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwh0fY22rkdG9uULsE35_xC-MJnDvPF7HS6U-sLk5PSNnCwOcJ8wGZdpqdGxYEMsHxZ/exec';
+        const form = document.getElementById('contactForm');
+        const popup = document.getElementById('popup');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, { 
+                method: 'POST', 
+                body: new FormData(form)
+            })
+            .then(response => {
+                showPopup('Message sent successfully!');
+                form.reset(); // Reset the form fields
+            })
+            .catch(error => {
+                showPopup('Error! ' + error.message);
+            });
+        });
+
+        function showPopup(message) {
+            popup.style.display = 'block';
+            document.getElementById('popupMessage').innerText = message;
+        }
+
+        function closePopup() {
+            popup.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
